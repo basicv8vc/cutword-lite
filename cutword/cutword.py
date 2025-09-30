@@ -6,8 +6,8 @@ import ahocorasick
 import re
 import os
 
-re_han = re.compile("([\u4E00-\u9FD5]+)")
-re_skip = re.compile("([a-zA-Z0-9]+(?:\.\d+)?%?)")
+re_han = re.compile(r"([\u4E00-\u9FD5]+)")
+re_skip = re.compile(r"([a-zA-Z0-9]+(?:\.\d+)?%?)")
 
 root_path = os.path.dirname(os.path.realpath(__file__))
 class Cutter:
