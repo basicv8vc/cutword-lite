@@ -10,6 +10,7 @@ setup(
     long_description=open('README.md', encoding="utf-8").read(),
     long_description_content_type='text/markdown',
     license='Apache License 2.0',
+    license_files=[],
     url='https://github.com/basicv8vc/cutword-lite',
     author='basicv8vc',
     install_requires=['numpy', 'pyahocorasick'],
