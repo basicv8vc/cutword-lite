@@ -49,7 +49,3 @@ print(res) # ['精诚所至', '，', '金石为开']
 
 本项目借鉴了苏神的[bytepiece](https://github.com/bojone/bytepiece)的代码，在此表示感谢。
 
-
-## Star History
-
-![Star History Chart](https://api.star-history.com/svg?repos=liwenju0/cutword&type=Date)
